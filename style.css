@@ -665,6 +665,21 @@ p {
 
 /* End Footer Section */
 
+/* whatsapp */
+#whatsapp .whatsapp{
+  color: red;
+  position: fixed;
+  bottom: -43vh;
+  right:-39vw;
+  z-index:999;
+}
+#whatsapp .whatsapp img{
+  width: 60px;  
+  height: 60px;
+}
+
+/* end whatsapp */
+
 /* Keyframes */
 @keyframes hamburger_puls {
   0% {
@@ -832,6 +847,12 @@ p {
   }
 
   /* End Contact */
+
+  /* whatsapp */
+  #whatsapp .whatsapp{
+    right: -45vw;
+  }
+  /* end whatsapp */
 }
 
 /* End Media Query For Tablets */
@@ -869,6 +890,11 @@ p {
     flex-basis: 22%;
     margin: 1.5%;
   }
+  /* whatsapp */
+  #whatsapp .whatsapp{
+    right: -47vw;
+  }
+  /* end whatsapp */
 }
 
 /* End Media Query For Desktops */
