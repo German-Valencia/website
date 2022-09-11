@@ -317,7 +317,6 @@ p {
 #services .service-top {
   max-width: 500px;
   margin: 0 auto;
-  
 }
 
 #services .service-bottom {
@@ -543,11 +542,9 @@ p {
   width: 90%;
 }
 
-
-
 #contact .contact-items {
   /* max-width: 400px; */
-  width: 100%;  
+  width: 100%;
   /* padding-top: 10vw; */
   /* padding-bottom: 15vw; */
 }
@@ -666,15 +663,23 @@ p {
 /* End Footer Section */
 
 /* whatsapp */
-#whatsapp .whatsapp{
-  color: red;
+#whatsapp .container {
+  min-height: 50vh;
+  width: 15%;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+#whatsapp .whatsapp {
+  /* color: red; */
   position: fixed;
   bottom: -43vh;
-  right:-39vw;
-  z-index:999;
+  right: -39vw;
+  z-index: 1;
+  right: 0;
 }
-#whatsapp .whatsapp img{
-  width: 60px;  
+#whatsapp .whatsapp img {
+  width: 60px;
   height: 60px;
 }
 
@@ -807,7 +812,7 @@ p {
   /* End About */
 
   /* Contact */
-  
+
   #contact .contact {
     flex-direction: column;
     padding: 100px 0;
@@ -849,7 +854,12 @@ p {
   /* End Contact */
 
   /* whatsapp */
-  #whatsapp .whatsapp{
+
+  #whatsapp .container {
+    width: 55%;
+  }
+
+  #whatsapp .whatsapp {
     right: -45vw;
   }
   /* end whatsapp */
@@ -891,8 +901,11 @@ p {
     margin: 1.5%;
   }
   /* whatsapp */
-  #whatsapp .whatsapp{
-    right: -47vw;
+  #whatsapp .container {
+    width: 52%;
+  }
+  #whatsapp .whatsapp {
+    right: -46vw;
   }
   /* end whatsapp */
 }
