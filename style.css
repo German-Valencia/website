@@ -8,7 +8,8 @@
 
 html {
   font-size: 10px;
-  font-family: "Monserrat", sans-serif;
+  /* font-family: "Monserrat", sans-serif; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -234,6 +235,11 @@ p {
   background-position: top center;
   position: relative;
   z-index: 1;
+}
+
+#hero .hero img{
+  width: 65%;
+  border-radius: 10px;
 }
 
 #hero::after {
@@ -472,6 +478,26 @@ p {
 /* End Projects Section */
 
 /* About Section */
+
+#about .gracias{
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 30px;
+font-weight: 300;
+text-align: center;
+color: #15e8eb;
+padding: 3rem;
+background-color: #29323c;
+}
+
+#about .empresas{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  background-color: #29323c;
+  
+}
 
 #about .about {
   flex-direction: column-reverse;
