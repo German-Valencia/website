@@ -9,8 +9,9 @@
 html {
   font-size: 10px;
   /* font-family: "Monserrat", sans-serif; */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  scroll-behavior: smooth;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* scroll-behavior: smooth; */
 }
 
 a {
@@ -237,9 +238,8 @@ p {
   z-index: 1;
 }
 
-#hero .hero img{
-  width: 65%;
-  border-radius: 10px;
+#hero .hero img {
+  width: 70%;
 }
 
 #hero::after {
@@ -440,7 +440,7 @@ p {
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////// */
-#projects .project-img {
+#projects a {
   flex-basis: 50%;
   height: 100%;
   width: 100%;
@@ -449,9 +449,9 @@ p {
   position: relative;
 }
 
-#projects .project-img img {
+#projects a .project-img img {
   /* esto no va */
-  height: 300px;
+  height: 400px;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////// */
@@ -464,7 +464,7 @@ p {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  opacity: 0.0;
+  opacity: 0;
 }
 
 #projects .project-img img {
@@ -479,24 +479,23 @@ p {
 
 /* About Section */
 
-#about .gracias{
-display: flex;
-flex-direction: row;
-justify-content: center;
-font-size: 30px;
-font-weight: 300;
-text-align: center;
-color: #15e8eb;
-padding: 3rem;
-background-color: #29323c;
+#about .gracias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+  color: #15e8eb;
+  padding: 1rem;
+  background-color: #29323c;
 }
 
-#about .empresas{
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+#about .empresas {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   background-color: #29323c;
-  
 }
 
 #about .about {
@@ -711,6 +710,49 @@ background-color: #29323c;
 
 /* end whatsapp */
 
+/* fotos */
+
+
+
+#fotos .fotos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+  padding: 100px;
+}
+
+#fotos .unidad{
+align-items: center;
+justify-content: center;
+
+}
+
+#fotos img{  
+  border: #15e8eb solid 1px;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+#fotos .fotos h1 {
+  color: #15e8eb;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+  padding-bottom: 50px;
+}
+#fotos .fotos span {
+  color: black;
+}
+
+
+
+#fotos .fotos .cta{
+  color: black;  
+}
+
+/* end fotos */
+
 /* Keyframes */
 @keyframes hamburger_puls {
   0% {
@@ -754,6 +796,13 @@ background-color: #29323c;
 /* Media Query For Tablets */
 
 @media only screen and (min-width: 768px) {
+  #fotos img{  
+    border: #15e8eb solid 5px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+  }
+
   .cta {
     font-size: 2.5rem;
     padding: 20px 60px;
@@ -766,6 +815,10 @@ background-color: #29323c;
   /* Hero */
   #hero h1 {
     font-size: 7rem;
+  }
+
+  #hero .hero img {
+    width: 32%;
   }
 
   /* End Hero */
@@ -800,6 +853,7 @@ background-color: #29323c;
   #projects .all-proyects .project-info {
     height: 100%;
   }
+  
 
   #projects .all-proyects .project-img {
     height: 100%;
@@ -836,6 +890,25 @@ background-color: #29323c;
   }
 
   /* End About */
+
+  #about .gracias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    color: #15e8eb;
+    padding: 6rem;
+    background-color: #29323c;
+  }
+
+  #about .empresas {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-color: #29323c;
+  }
 
   /* Contact */
 
