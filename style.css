@@ -1009,6 +1009,10 @@ p {
     height: 30%;
   }
 
+  #hero .hero img {
+    width: 20%;
+  }
+
   /* whatsapp */
   #whatsapp .container {
     width: 52%;
