@@ -76,7 +76,7 @@ p {
 }
 
 .brand h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   color: white;
 }
@@ -239,7 +239,7 @@ p {
 }
 
 #hero .hero img {
-  width: 70%;
+  width: 40%;
 }
 
 #hero::after {
@@ -812,9 +812,13 @@ justify-content: center;
     font-size: 6rem;
   }
 
+  .brand h1 {
+    font-size: 3rem;
+  }
+
   /* Hero */
   #hero h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   #hero .hero img {
@@ -993,7 +997,12 @@ justify-content: center;
     display: none;
   }
 
+  .brand h1 {
+    font-size: 4rem;
+  }
+
   /* end header */
+  
 
   #services .service-bottom .service-item {
     flex-basis: 40%;
