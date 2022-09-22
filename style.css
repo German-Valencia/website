@@ -999,6 +999,10 @@ p {
 
   /* end header */
 
+  .brand h1 {
+    font-size: 2.5rem;
+  }
+
   #services .service-bottom .service-item {
     flex-basis: 40%;
     margin: 1.5%;
