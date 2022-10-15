@@ -85,6 +85,19 @@ p {
   color: #15e8eb;
 }
 
+/* leer más section */
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: inline;
+}
+
+
+/* End leer más section */
+
 /* Header Section */
 #header {
   position: fixed;
